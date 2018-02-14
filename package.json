@@ -1,0 +1,15 @@
+{
+  "name": "xhr-5",
+  "version": "1.0.0",
+  "description": "Q'APIRIY\r =================\r La red social que integra a toda una comunidad dispuesta a colabrorar en el voluntariado mientras Viaja, Comparte y vive nuevas experiencias.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "yanina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
