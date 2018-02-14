@@ -13,7 +13,7 @@
 
   function getNews(){
    const articleRequest = new XMLHttpRequest();
-   articleRequest.open('GET',`http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=b9ce7f78872e46f19ea9410794908a65`);
+   articleRequest.open('GET',`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=b9ce7f78872e46f19ea9410794908a65`);
    articleRequest.onload  = addNews;
    articleRequest.onerror = handleError;
    articleRequest.send();
